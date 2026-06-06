@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-slate-900">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VendorBridge - Enterprise Procurement Portal</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { blueAccent: '#0062e3', hoverBlue: '#0052bd' },
+                        themeDark: { base: '#0d131f', slate: '#111827', border: '#1f2937' },
+                        themeLight: { base: '#f8fafc', card: '#ffffff' }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database-compat.js"></script>
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyBbT1kKo-F9QiVD0wiJsF0mJrahveTv-TU",
+            authDomain: "vendorbridge-82b7e.firebaseapp.com",
+            databaseURL: "https://vendorbridge-82b7e-default-rtdb.firebaseio.com",
+            projectId: "vendorbridge-82b7e",
+            storageBucket: "vendorbridge-82b7e.firebasestorage.app",
+            messagingSenderId: "409439736684",
+            appId: "1:409439736684:web:d2c0a5eef0c7e704e45949",
+            measurementId: "G-1E9S1EGW70"
+        };
+
+        if (!firebase.apps.length) {
+            firebase.initializeApp(firebaseConfig);
+        }
+    </script>
+</head>
+<body class="h-full overflow-hidden text-slate-800 antialiased selection:bg-brand-blueAccent/30">
+    <div id="app-container" class="h-full w-full">
+        </div>
+    <script src="app.js"></script>
+</body>
+</html>
