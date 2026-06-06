@@ -164,8 +164,21 @@ VendorBridge-Odoo/
 
 ## Team
 
-Project Name: VendorBridge
+## Team Information
 
-Event: Odoo x KSV Hackathon 2026
+### Group Leader
 
-Repository: VendorBridge-Odoo
+* Samir Sorathiya
+
+### Team Members
+
+* Jaydip Kaliya
+* Ram Raman
+
+### Hackathon
+
+Odoo x KSV Hackathon 2026
+
+### Project
+
+VendorBridge – Procurement & Vendor Management ERP
